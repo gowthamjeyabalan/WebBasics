@@ -1,15 +1,17 @@
+
+a,h1, h2, h3, h4, p, li{ 
+    font-family: sans-serif;}
+
+
 h1{
     color:blueviolet;
     font-size: 64px;
-    font-family:sans-serif;
     text-transform: capitalize;
     font-style:normal;
 }
 
 h2
 {
-    color: brown;
-    font-family: monospace;
     font-size: large;
 }
 
@@ -17,14 +19,12 @@ h2
 h3
 {
     font-size: 30px;
-    font-family: sans-serif;
 
 }
 
 h4
 {
     font-size: 24px;
-    font-family: sans-serif;
     text-transform: uppercase;
     text-align: center;
 }
@@ -33,13 +33,19 @@ h4
 li
 {
     font-size: 20px;
-    font-family: sans-serif;
 }
 
 p
 {
     font-size: 22px;
-    font-family: sans-serif;
     text-transform:none;
     line-height: 1.5;
+}
+
+article header p{
+    font-style: italic;
+}
+
+footer p{
+    font-size: 16px;
 }
