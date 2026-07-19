@@ -71,3 +71,22 @@ footer p{
 .main_header{
     background-color: rgba(142, 221, 221, 0.288);
 }
+
+
+li:first-child{
+    color: chocolate;
+}
+
+
+ol li:last-child{
+    font-style: italic;
+}
+
+
+li:nth-child(2){
+    color: red;
+}
+
+article p:last-child{
+    color: darksalmon;
+}
