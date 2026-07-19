@@ -1,6 +1,10 @@
 
 a,h1, h2, h3, h4, p, li{ 
     font-family: sans-serif;}
+    
+
+
+
 
 
 h1{
@@ -62,4 +66,8 @@ footer p{
 
 .related_author{
     list-style: none;
+}
+
+.main_header{
+    background-color: rgba(142, 221, 221, 0.288);
 }
