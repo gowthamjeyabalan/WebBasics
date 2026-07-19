@@ -1,11 +1,7 @@
-
-a,h1, h2, h3, h4, p, li{ 
-    font-family: sans-serif;}
-    
-
-
-
-
+body{
+    color:red;
+    font-family: sans-serif;
+}
 
 h1{
     color:blueviolet;
@@ -14,6 +10,17 @@ h1{
     font-style:normal;
     
 }
+
+h1,h2,h3{
+    color: blue;
+}
+
+/* a,h1, h2, h3, h4, p, li{ 
+    font-family: sans-serif;
+    color: grey;
+} */
+
+
 
 h2
 {
@@ -42,7 +49,7 @@ li
 
 p
 {
-    font-size: 22px;
+    font-size: 20px;
     text-transform:none;
     line-height: 1.5;
 }
@@ -83,10 +90,46 @@ ol li:last-child{
 }
 
 
+/* STYLING LINKS */
+a:link{
+    color: deeppink;
+}
+
+/* a:visited{
+    color:khaki
+} */
+
+a:hover{
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline orangered;
+}
+
+a:active{
+    color: greenyellow;
+}
+
+a{
+    color:lightskyblue
+}
+
+a{
+    color: midnightblue;
+}
+
 li:nth-child(2){
     color: red;
 }
 
-article p:last-child{
-    color: darksalmon;
+
+aside{
+    background-color: beige;
+    border-bottom:3px solid blue;
+    border-top:3px solid  blue;
 }
+
+
+/* Misconception, since p is not the first child, so this doesnt do anything*/
+/* article p:first-child{
+    color: darksalmon;
+} */
