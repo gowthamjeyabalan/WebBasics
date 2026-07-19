@@ -1,3 +1,45 @@
 h1{
-    color: aqua;
+    color:blueviolet;
+    font-size: 64px;
+    font-family:sans-serif;
+    text-transform: capitalize;
+    font-style:normal;
+}
+
+h2
+{
+    color: brown;
+    font-family: monospace;
+    font-size: large;
+}
+
+
+h3
+{
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+
+h4
+{
+    font-size: 24px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+li
+{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+p
+{
+    font-size: 22px;
+    font-family: sans-serif;
+    text-transform:none;
+    line-height: 1.5;
 }
