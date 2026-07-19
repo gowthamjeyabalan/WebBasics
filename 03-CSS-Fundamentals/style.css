@@ -8,6 +8,7 @@ h1{
     font-size: 64px;
     text-transform: capitalize;
     font-style:normal;
+    
 }
 
 h2
@@ -42,10 +43,23 @@ p
     line-height: 1.5;
 }
 
-article header p{
+#author{
     font-style: italic;
 }
 
 footer p{
     font-size: 16px;
+}
+
+#link{
+    font-size: 36px;
+}
+
+#footer{
+    font-size: 20px;
+}
+
+
+.related_author{
+    list-style: none;
 }
