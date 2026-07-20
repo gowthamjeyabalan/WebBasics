@@ -1,6 +1,20 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     color:red;
     font-family: sans-serif;
+    margin: 0;
+}
+
+
+
+.main_header{
+    background-color: rgba(142, 221, 221, 0.288);
+    padding: 20px 40px;
 }
 
 h1{
@@ -75,9 +89,7 @@ footer p{
     list-style: none;
 }
 
-.main_header{
-    background-color: rgba(142, 221, 221, 0.288);
-}
+
 
 
 li:first-child{
